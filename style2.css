@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #cabbbb;
+    text-align: center;
+}
+
+#pokemon-container {
+    display: inline-block;
+    margin: 40px;
+    padding: 20px;
+    border: 2px solid #424040;
+    border-radius: 10px;
+    background-color: #7b7c7b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#pokemon-container:hover {
+    transform: scale(1.05);
+}
+
+#pokemon-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#pokemon-info {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#reload-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#reload-btn:hover {
+    background-color: #45a049;
+}
